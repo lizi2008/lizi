@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 7px;
+    font-family: 'DM Serif Display', serif;
+}
+
+header{
+    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 54px;
+  margin-right: 15%;
+  margin-left: 10%;
+  
+}
+
+nav{
+    margin-right: 50px;
+    font-family: 'Jost', sans-serif;
+
+}
+
+nav ul{
+    display: flex;
+    gap: 50px;
+}
+
+li{
+    list-style: none;
+}
+
+h3{
+    font-family: 'DM Serif Display', serif;
+    color: #292F36;
+}
+p{
+    font-family: 'Jost', sans-serif;
+}
+
+span{
+    font-size: 60px;
+}
+
+
+button{
+    border: none;
+    color: white;
+    background-color: black;
+    padding-inline: 35px;
+    padding-block: 16px;
+    border-radius: 10px;
+    
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
